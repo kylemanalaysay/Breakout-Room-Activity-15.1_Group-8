@@ -6,6 +6,10 @@
 - Kyle Andrei Manalaysay
 
 ## How to use
+1. Change the router details such as IP Address, Username, and Password.
+2. Run the application `python3 ncclient-netconf.py`
+
+## Objectives
 1. Design a new application for network automation.
 2. Use data modeling with YANG.
 3. Implement automation with NETCONF.
