@@ -18,3 +18,6 @@
   - running-config before changes
   - running-config after changes
   - Message sent to WebEx Teams
+
+## GDRIVE LINK:
+- https://drive.google.com/file/d/1i2W4kMcJHnmyIDx5LnaXpYOsWtSe4cVa/view?usp=sharing
