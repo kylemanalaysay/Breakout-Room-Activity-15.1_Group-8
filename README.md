@@ -17,11 +17,10 @@
 
 ## Current Features
 - Application code
-- Describe the YANG Model chosen
-- Provide example output of running code showing:
-  - running-config before changes
-  - running-config after changes
+  - connecting app to router
+  - running-config before and after changes
+  - applying configuration changes
   - Message sent to WebEx Teams
 
-## GDRIVE LINK:
+## PRESENTATION LINK:
 - https://drive.google.com/file/d/1i2W4kMcJHnmyIDx5LnaXpYOsWtSe4cVa/view?usp=sharing
