@@ -22,7 +22,6 @@ def get_running_config(device):
     try:
         running_config_xml = device.get_config(source='running').data_xml
 
-        # Prettify the XML response using xml.dom.minidom
         dom = xml.dom.minidom.parseString(running_config_xml)
         running_config_pretty = dom.toprettyxml()
 
@@ -79,7 +78,6 @@ def make_configuration_changes(device):
 """
 
     try:
-        # Apply changes using the edit-config operation
         device.edit_config(target='running', config=change_1)
         device.edit_config(target='running', config=change_2)
         device.edit_config(target='running', config=change_3)
@@ -90,7 +88,6 @@ def make_configuration_changes(device):
 
 # Function to send notification to WebEx Teams group
 def send_notification(message):
-    # Replace 'YOUR_WEBEX_TEAMS_TOKEN' with your actual token
     token = 'MzdhMTQyY2ItZDhjYi00N2JmLTg0NzEtNjg2YjlkMWM1NjRjZjRiYWNkNTYtNWE4_P0A1_d0b19fc5-a717-4064-90e2-8d88b3acad9c'
     url = 'https://api.ciscospark.com/v1/messages'
     headers = {
